@@ -255,16 +255,16 @@ export default {
           "自动判断客户端": "auto",
         },
         customBackend: {
+          "pesy.ml 自用版": "http://pesy.ml/sub?",
           "localhost:25500 本地版": "http://localhost:25500/sub?",
           "sub-beta.vercel.app": "https://sub-beta.vercel.app/sub?",
-          "subcon.dlj.tf(subconverter作者提供-稳定)":
-            "https://subcon.dlj.tf/sub?",
+          "subcon.dlj.tf(subconverter作者提供-稳定)": "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
           "api.wcc.best(sub-web作者提供-稳定)": "https://api.wcc.best/sub?",
           "sub.id9.cc(品云转换)": "https://sub.id9.cc/sub?",
         },
         backendOptions: [
-          { value: "http://localhost:25500/sub?" },
+          { value: "http://pesy.ml/sub?" },
           { value: "https://sub-beta.now.sh/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
