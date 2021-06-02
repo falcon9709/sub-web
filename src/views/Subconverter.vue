@@ -256,6 +256,7 @@ export default {
         },
         customBackend: {
           "guihui.tk自用版": "https://guihui.tk/sub?",
+	   "heroku自用版": "https://mysubweb.herokuapp.com/sub?",
           "sub-beta.vercel.app": "https://sub-beta.vercel.app/sub?",
           "subcon.dlj.tf(subconverter作者提供-稳定)": "https://subcon.dlj.tf/sub?",
           "api.dler.io(sub作者&lhie1提供-稳定)": "https://api.dler.io/sub?",
@@ -264,6 +265,7 @@ export default {
         },
         backendOptions: [
           { value: "https://guihui.tk/sub?" },
+	  { value: "https://mysubweb.herokuapp.com/sub?" },
           { value: "https://sub-beta.now.sh/sub?" },
           { value: "https://subcon.dlj.tf/sub?" },
           { value: "https://api.dler.io/sub?" },
